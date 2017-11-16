@@ -9,12 +9,12 @@
 	<packaging>jar</packaging>
 
 	<name>hello-service</name>
-	<description>这是第而个</description>
+	<description>Chapter-02:最简单的服务</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.7.RELEASE</version>
+		<version>1.5.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 

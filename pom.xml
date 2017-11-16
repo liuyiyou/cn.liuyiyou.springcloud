@@ -23,7 +23,7 @@
 
     <modules>
         <module>eureka</module>
-        <module>springboot</module>
+        <module>hello-service</module>
     </modules>
 
 

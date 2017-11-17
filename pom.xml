@@ -2,14 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.7.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
 
-    <groupId>cn.liuyiyou</groupId>
+    <groupId>cn.liuyiyou.springcloud</groupId>
     <artifactId>cn.liuyiyou.sprintcloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -22,8 +16,12 @@
     </properties>
 
     <modules>
-        <module>eureka</module>
+        <module>eureka-server</module>
         <module>hello-service</module>
+        <module>base-service-producer</module>
+        <module>high-eureka-server</module>
+        <module>high-hello-service</module>
+        <module>ribbon-consumer</module>
     </modules>
 
 

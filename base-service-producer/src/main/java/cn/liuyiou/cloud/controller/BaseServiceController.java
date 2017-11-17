@@ -14,17 +14,17 @@ import org.springframework.web.bind.annotation.RestController;
  * Time: 下午1:34
  */
 @RestController
-public class HelloController {
+public class BaseServiceController {
 
-    private Logger logger = LoggerFactory.getLogger(HelloController.class);
+    private Logger logger = LoggerFactory.getLogger(BaseServiceController.class);
 
     @Autowired
     DiscoveryClient discoveryClient;
 
-    @RequestMapping("/hello")
+    @RequestMapping("/base-service")
     public String index() {
         ServiceInstance instance = discoveryClient.getLocalServiceInstance();
         logger.info("/hello,host:" + instance.getHost() + ",service_id:" + instance.getServiceId());
-        return "Hello Spring Cloud" + "/hello,host:" + instance.getHost() + ",service_id:" + instance.getServiceId();
+        return "Base Service Has Been Called";
     }
 }

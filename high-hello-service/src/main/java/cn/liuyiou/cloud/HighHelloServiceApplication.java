@@ -9,9 +9,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class HelloServiceApplication {
+public class HighHelloServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloServiceApplication.class, args);
+		SpringApplication.run(HighHelloServiceApplication.class, args);
 	}
 }

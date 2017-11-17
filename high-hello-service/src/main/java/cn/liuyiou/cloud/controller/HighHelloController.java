@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
  * Time: 下午1:34
  */
 @RestController
-public class HelloController {
+public class HighHelloController {
 
-    private Logger logger = LoggerFactory.getLogger(HelloController.class);
+    private Logger logger = LoggerFactory.getLogger(HighHelloController.class);
 
     @Autowired
     DiscoveryClient discoveryClient;
 
-    @RequestMapping("/hello")
+    @RequestMapping("/high-hello")
     public String index() {
         ServiceInstance instance = discoveryClient.getLocalServiceInstance();
         logger.info("/hello,host:" + instance.getHost() + ",service_id:" + instance.getServiceId());

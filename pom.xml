@@ -22,6 +22,11 @@
         <module>high-eureka-server</module>
         <module>high-hello-service</module>
         <module>ribbon-consumer</module>
+        <module>ribbon-consumer-hystrix</module>
+        <module>feigh-consumer</module>
+        <module>zuul-api-gateway</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
 

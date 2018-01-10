@@ -27,8 +27,12 @@
         <module>zuul-api-gateway</module>
         <module>config-server</module>
         <module>config-client</module>
-    </modules>
+        <module>user-service-client</module>
+        <module>user-service-feigh</module>
+        <module>user-service-feigh-api</module>
+        <module>user-service-feigh-impl</module>
 
+    </modules>
 
 
 </project>

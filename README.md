@@ -1,5 +1,5 @@
 ## 一、项目结构
-[SpringClound学习](http:/liuyiyou.cn/springcloud)
+[SpringClound学习](http://liuyiyou.cn/categories/spring-cloud/)
 
 #### a. 『 基础 - 入门篇 』
 - eureka<br>

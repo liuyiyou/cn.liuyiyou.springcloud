@@ -32,6 +32,11 @@
         <module>user-service-feigh-api</module>
         <module>user-service-feigh-impl</module>
 
+
+
+        <!--用来测试分布式事务-->
+        <module>order-service</module>
+        <module>store-service</module>
     </modules>
 
 

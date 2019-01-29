@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    hostname: localhost
+#    environment: dev
+  client:
+    service-url:
+      defaultZoon: http://${eureka.instance.hostname}:${server.port}/eureka
+    fetch-registry: false
+    register-with-eureka: false
+
+
+
+#启动后,打开 http://localhost:9001/ 如果出息正常界面表示服务注册中心已经正常启动

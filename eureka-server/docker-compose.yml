@@ -1,0 +1,21 @@
+version : '3.4'
+services:
+  eureka-server:
+    container_name: eureka-server
+    image: eurekaserver_eureka-server:latest
+    ports:
+      - "7001:7001"
+    # command: mvn clean spring-boot:run -Dspring-boot.run.profiles=docker
+#    volumes:
+#      - .:/vol/development
+#    links:
+#        - mongodb:mongodb
+
+
+
+#  mongodb:
+#    image: daocloud.io/library/mongo:latest
+#    ports:
+#      - "27017:27017"
+
+

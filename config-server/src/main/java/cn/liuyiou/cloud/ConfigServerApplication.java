@@ -10,6 +10,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class ConfigServerApplication {
 
     public static void main(String[] args) {
+        System.out.println(System.getProperty("user.dir"));
         SpringApplication.run(ConfigServerApplication.class, args);
     }
 

@@ -1,0 +1,15 @@
+
+server:
+  port: 9001
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: dev
+
+
+
+
+
+
+#启动后,打开 http://localhost:1111/ 如果出息正常界面表示服务注册中心已经正常启动

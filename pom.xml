@@ -51,8 +51,6 @@
         <module>user-service-feigh</module>
         <module>user-service-feigh-api</module>
         <module>user-service-feigh-impl</module>
-        <module>order-service</module>
-        <module>store-service</module>
     </modules>
 
 

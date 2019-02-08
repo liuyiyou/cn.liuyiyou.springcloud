@@ -4,8 +4,7 @@ import cn.liuyiou.cloud.model.User;
 import cn.liuyiou.cloud.service.api.UserService;
 import com.google.common.collect.Lists;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+
 import java.util.List;
 
 /**
@@ -14,16 +13,16 @@ import java.util.List;
  * Time: 下午8:41
  */
 //@RestController
-    @Service
+@Service
 public class UserServiceImpl implements UserService {
 
-//    @RequestMapping("add-user")
+    //    @RequestMapping("add-user")
     @Override
     public String addUser() {
         return "add User Has Been Called";
     }
 
-//    @RequestMapping("list-user")
+    //    @RequestMapping("list-user")
     @Override
     public List<User> listUser() {
         return Lists.newArrayList(new User() {{
@@ -41,13 +40,13 @@ public class UserServiceImpl implements UserService {
         }});
     }
 
-//    @RequestMapping("delete-user")
+    //    @RequestMapping("delete-user")
     @Override
     public boolean deleteUser() {
         return true;
     }
 
-//    @RequestMapping("update-user")
+    //    @RequestMapping("update-user")
     @Override
     public String updateUser() {
         return "update User Has Been Called";

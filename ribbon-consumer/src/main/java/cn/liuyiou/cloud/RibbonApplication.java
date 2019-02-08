@@ -12,10 +12,10 @@ import org.springframework.web.client.RestTemplate;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class RibbonConsumer {
+public class RibbonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RibbonConsumer.class, args);
+		SpringApplication.run(RibbonApplication.class, args);
 	}
 
 

@@ -1,4 +1,4 @@
-package cn.liuyiyou.springcloud.eurekaserver;
+package cn.liuyiyou.cloud.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

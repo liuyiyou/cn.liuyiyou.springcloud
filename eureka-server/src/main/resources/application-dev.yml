@@ -1,13 +1,25 @@
+server:
+  servlet:
+    path: /
+
+
 eureka:
   instance:
     hostname: localhost
-#    environment: dev
+    status-page-url: ${server.servlet.path}/info
+    health-check-url-path: ${server.servlet.path}/health
   client:
     service-url:
       defaultZoon: http://${eureka.instance.hostname}:${server.port}/eureka
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: false  #表示启动后，不需要同步已注册的服务注册列表数据到本地
+    register-with-eureka: false #作为服务端不需要注册自己
 
 
 
-#启动后,打开 http://localhost:9001/ 如果出息正常界面表示服务注册中心已经正常启动
+
+spring:
+  security:
+    user:
+      name: lyy
+      password: 123456
+#启动后,打开 http://localhost:4001/ 如果出息正常界面表示服务注册中心已经正常启动

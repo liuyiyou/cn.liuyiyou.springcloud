@@ -1,15 +1,11 @@
-package cn.liuyiyou.springcloud.eurekaserver;
+package cn.liuyiyou.cloud.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
-/**
- * 该注解启动一个服务注册中心给其他应用进行对话
- */
-@EnableEurekaServer
+@EnableDiscoveryClient
 @SpringBootApplication
 public class EurekaServerApplication {
 

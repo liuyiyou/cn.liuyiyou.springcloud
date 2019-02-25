@@ -15,6 +15,9 @@ eureka:
     register-with-eureka: false #作为服务端不需要注册自己
 
 
+## high-avaliable
+
+#  eureka.client.service-url.defaultZone=http://peer1:1111/eureka,http://peer2:1111/eureka
 
 
 #spring:

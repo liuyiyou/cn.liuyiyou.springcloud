@@ -35,10 +35,11 @@
     </dependencies>
 
     <modules>
+        <module>server-producer</module>
+        <module>base-consumer</module>
+
         <!--简单服务注册中心-->
         <module>eureka-server</module>
-        <module>hello-service</module>
-        <module>base-service-producer</module>
         <module>high-eureka-server</module>
         <module>high-hello-service</module>
         <module>ribbon-consumer</module>

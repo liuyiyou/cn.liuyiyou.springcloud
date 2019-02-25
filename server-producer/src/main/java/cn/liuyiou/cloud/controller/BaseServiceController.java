@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * User: liuyiyou
- * Date: 2017/9/21
- * Time: 下午1:34
+ * 基础服务调用：被
  */
 @RestController
 public class BaseServiceController {
@@ -21,6 +19,10 @@ public class BaseServiceController {
     @Autowired
     DiscoveryClient discoveryClient;
 
+    /**
+     * 最简单的服务调用
+     * @return
+     */
     @RequestMapping("/base-service")
     public String index() {
         ServiceInstance instance = discoveryClient.getLocalServiceInstance();

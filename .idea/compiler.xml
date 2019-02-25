@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="consumer-base" />
+        <module name="consumer-feigh" />
+        <module name="consumer-ribbon" />
+        <module name="consumer-ribbon-hystrix" />
+        <module name="eureka-server" />
+        <module name="server-producer" />
+        <module name="server-producer-api" />
+        <module name="zuul-api-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="cn.liuyiyou.springcloud" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="consumer-base" target="1.8" />
+      <module name="consumer-feigh" target="1.8" />
+      <module name="consumer-ribbon" target="1.8" />
+      <module name="consumer-ribbon-hystrix" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="server-producer" target="1.8" />
+      <module name="server-producer-api" target="1.8" />
+      <module name="zuul-api-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

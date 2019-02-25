@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cn.liuyiyou.springcloud.iml" filepath="$PROJECT_DIR$/cn.liuyiyou.springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-base/consumer-base.iml" filepath="$PROJECT_DIR$/consumer-base/consumer-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-feigh/consumer-feigh.iml" filepath="$PROJECT_DIR$/consumer-feigh/consumer-feigh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-ribbon/consumer-ribbon.iml" filepath="$PROJECT_DIR$/consumer-ribbon/consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-ribbon-hystrix/consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/consumer-ribbon-hystrix/consumer-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-producer/server-producer.iml" filepath="$PROJECT_DIR$/server-producer/server-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-producer-api/server-producer-api.iml" filepath="$PROJECT_DIR$/server-producer-api/server-producer-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-api-gateway/zuul-api-gateway.iml" filepath="$PROJECT_DIR$/zuul-api-gateway/zuul-api-gateway.iml" />
+    </modules>
+  </component>
+</project>

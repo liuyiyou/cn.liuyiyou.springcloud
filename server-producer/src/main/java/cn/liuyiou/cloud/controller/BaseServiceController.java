@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 基础服务调用：被
  */
 @RestController
+@RequestMapping("/base")
 public class BaseServiceController {
 
     private Logger logger = LoggerFactory.getLogger(BaseServiceController.class);

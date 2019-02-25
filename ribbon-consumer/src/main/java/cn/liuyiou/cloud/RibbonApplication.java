@@ -20,9 +20,6 @@ public class RibbonApplication {
 
 
 	@Bean
-	/**
-	 * 开启客户端负载均衡
-	 */
 	@LoadBalanced
 	public RestTemplate restTemplate(){
 		return new RestTemplate();

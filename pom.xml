@@ -50,7 +50,7 @@
         <module>config-client</module>
         <module>user-service-client</module>
         <module>user-service-feigh</module>
-        <module>user-service-feigh-api</module>
+        <module>server-producer-api</module>
         <module>user-service-feigh-impl</module>
     </modules>
 

@@ -31,11 +31,7 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>cn.liuyiyou.springcloud</groupId>
-            <artifactId>user-service-feigh-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
 

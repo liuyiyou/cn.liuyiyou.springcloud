@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @date: 2019/2/25
  * @version: V1.0
  */
-@FeignClient("server-producer")
+
+@FeignClient(name = "server-producer",value = "server-producer")
 public interface FeighClient {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/feighService")
+    @RequestMapping(method = RequestMethod.GET, value = "/feigh-service")
     String feighService();
 }

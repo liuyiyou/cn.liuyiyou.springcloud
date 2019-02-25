@@ -23,7 +23,7 @@ public class RibbonConsumerController {
 
     @GetMapping("/ribbon-base")
     public String ribbonBase() {
-        String uri = "http://SERVER-PRODUCER/base-service";
+        String uri = "http://SERVER-PRODUCER/base/base-service";
         logger.info("url::{}", uri);
         String result = restTemplate.getForEntity(uri, String.class).getBody();
         return result;

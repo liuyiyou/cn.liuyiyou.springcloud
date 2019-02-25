@@ -18,6 +18,7 @@ public class FeighConsumerController {
 
     @GetMapping("/feigh-service")
     public String ribbonBase() {
+        System.out.println("feighClient::" + feighClient);
         return feighClient.feighService();
     }
 

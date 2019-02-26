@@ -21,7 +21,13 @@ public class HelloService {
 
     @HystrixCommand(fallbackMethod = "helloFallBack")
     public String helloRibbon() {
-        return restTemplate.getForEntity("http://BASE-SERVICE-PRODUCER/base-service", String.class).getBody();
+        try {
+            //触发熔断机制
+            Thread.sleep(5000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return restTemplate.getForEntity("http://SERVER-PRODUCER/base/base-service", String.class).getBody();
     }
 
 

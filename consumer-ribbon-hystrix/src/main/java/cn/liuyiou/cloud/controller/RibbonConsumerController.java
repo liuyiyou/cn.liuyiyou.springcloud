@@ -19,9 +19,6 @@ public class RibbonConsumerController {
     private Logger logger = LoggerFactory.getLogger(RibbonConsumerController.class);
 
     @Autowired
-    private RestTemplate restTemplate;
-
-    @Autowired
     private HelloService helloService;
 
 

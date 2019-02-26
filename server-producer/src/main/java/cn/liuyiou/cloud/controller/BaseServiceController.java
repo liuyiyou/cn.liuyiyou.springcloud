@@ -19,6 +19,7 @@ public class BaseServiceController {
     @Autowired
     DiscoveryClient discoveryClient;
 
+
     /**
      * 最简单的服务调用
      *
@@ -26,6 +27,7 @@ public class BaseServiceController {
      */
     @RequestMapping("/base-service")
     public String basService() {
+        logger.info("base-service");
         return "Base Service Has Been Called";
     }
 }

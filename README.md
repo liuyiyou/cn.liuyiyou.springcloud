@@ -1,12 +1,17 @@
+## 服务注册于发现
 
-
-
-
-## Eureka
+### eureka-server
 
 http://localhost:4001/
 
 其他服务的前提。 如果是高可用，需要采用name，因为同一机器无法识别
+
+
+## hystrix熔断
+
+### consumer-ribbon-hystrix
+
+### consumer-feign
 
 
 ## 配置中心
@@ -28,11 +33,7 @@ feign
 ### consumer-feign调用
 
 
-## hystrix熔断
 
-### consumer-ribbon-hystrix
-
-### consumer-feign
 
 
 
